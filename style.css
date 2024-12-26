@@ -1,0 +1,76 @@
+/* Reset margin dan padding untuk semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Atur font global untuk seluruh halaman */
+  .body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Header dan navigasi */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+  .header h1 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .header .button {
+    display: flex;
+    color: #fff;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+  }
+
+  .header .button a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .header .button a:hover {
+    text-decoration: underline;
+  }
+
+  .judul {
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  .judul h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .judul .button {
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .judul .button a {
+    color: gray;
+    text-decoration: none;
+  }
+
+  .judul .button a:hover {
+    text-decoration: underline;
+  }
+
+  .judul .button span {
+    margin: 0 10px;
+  }
